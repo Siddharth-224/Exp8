@@ -117,12 +117,7 @@ Two separate threshold values are used to prevent frequent switching of the stre
 ---
 ## Program
 
-```// Automatic Street Lighting System
-// STM32 Nucleo-L031K6 using Wokwi
-//
-// Potentiometer on PA0 simulates the LDR.
-// LED on PB3/D13 represents the streetlight.
-// USART2 displays light level and lamp status.
+```
 
 #include <stdio.h>
 #include <stdint.h>
